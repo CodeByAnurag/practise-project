@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    
+}
+
+.pimag1{
+    background-image: url(image/image\ 1.jpg);
+    min-height: 100%;
+}
+.pimag2{
+    background-image: url(image/image\ 2.jpg);
+    min-height: 400px;
+}
+.pimag3{
+    background-image: url(image/image\ 3.jpg);
+    min-height: 100%;
+}
+
+   
+.pimag1,.pimag2,.pimag3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; /* use to not repeat my image  it is used to fixed the image in the background*/
+    background-attachment: fixed; 
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.textbag{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+}
+.section_first{
+    padding: 20px 80px;
+    text-align: center;
+    color: #313534;
+    background-color: #f4fffc;
+
+}
+.section_second{
+    background-color: #313534;
+    color: #f4f7f6;
+     padding: 20px 80px;
+    text-align: center;
+  
+}
+.section_third{
+    background-color: #313534;
+    color: #f4f7f6;
+     padding: 20px 80px;
+    text-align: center;
+}
